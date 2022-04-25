@@ -1,0 +1,12 @@
+package com.example.demo.controller;
+
+
+@RestController
+public class HelloWorldController {
+	
+	
+	public String getHello() {
+		return "Hello World";
+	}
+
+}
